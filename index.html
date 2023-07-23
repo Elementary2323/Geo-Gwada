@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>HUD Game</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>hello world</h1>
+  <div id="hud">
+    <div id="compass"></div>
+    <div id="map"></div>
+    <div id="timer"></div>
+  </div>
+  <div id="panorama"></div>
+  <a-scene>
+    <a-sky src="image1.png" rotation="0 180 0"></a-sky>
+  </a-scene>
+  <script src="script.js"></script>
 </body>
 </html>
